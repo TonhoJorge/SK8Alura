@@ -3,7 +3,7 @@ const menu = document.querySelector('.menu-lateral')
 //a constante criada recebe o valor da classe html como uma query
 
 botaoMenu.addEventListener('click',() => {
-    menu.classList.toggle('menu-lateral__ativo')
+    menu.classList.toggle('menu-lateral--ativo')
 })
 //a constante criada recebe um listner que quando for clicado vai apontar para a cnstante,
 // que por sua vez ela chama a lista de classes que a query está passando do html para
